@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id="frequently-question">
+<@crafter.section id="frequently-question">
   <div class="container">
     <!-- ***** Section Title Start ***** -->
     <div class="row">
@@ -42,4 +42,4 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>

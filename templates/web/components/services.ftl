@@ -1,5 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<section class="section" id="services">
+<@crafter.section class="section" id="services">
   <div class="container">
     <div class="row">
       <div class="owl-carousel owl-theme" model-id="${contentModel.objectId}">
@@ -12,4 +12,4 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>

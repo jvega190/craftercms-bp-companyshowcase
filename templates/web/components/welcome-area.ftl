@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<div id="welcome" class="welcome-area">
+<@crafter.div id="welcome" class="welcome-area">
   <div class="header-text">
     <div class="container">
       <div class="row">
@@ -33,4 +33,4 @@
       </div>
     </div>
   </div>
-</div>
+</@crafter.div>

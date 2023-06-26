@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<div class="item service-item">
+<@crafter.div class="item service-item">
   <div class="icon">
     <i>
       <@crafter.img
@@ -17,4 +17,4 @@
     ${model.serviceDescription_t}
   </@crafter.p>
   <a href="${model.serviceButtonUrl_s}" class="main-button">${model.serviceButtonLabel_s}</a>
-</div>
+</@crafter.div>

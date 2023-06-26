@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section class="section" id="contact-us">
+<@crafter.section class="section" id="contact-us">
   <div class="container-fluid">
     <div class="row">
       <!-- ***** Contact Map Start ***** -->
@@ -57,4 +57,4 @@
       <!-- ***** Contact Form End ***** -->
     </div>
   </div>
-</section>
+</@crafter.section>
