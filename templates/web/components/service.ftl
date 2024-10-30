@@ -5,16 +5,16 @@
     <i>
       <@crafter.img
         $field="serviceImage_s"
-        src=(model.serviceImage_s)
-        alt=(model.serviceImageAccessibilityText_s!'')
+        src=(contentModel.serviceImage_s)
+        alt=(contentModel.serviceImageAccessibilityText_s!'')
       />
     </i>
   </div>
   <@crafter.h5 $field="serviceTitle_s" class="service-title">
-    ${model.serviceTitle_s}
+    ${contentModel.serviceTitle_s}
   </@crafter.h5>
   <@crafter.p $field="serviceDescription_t">
-    ${model.serviceDescription_t}
+    ${contentModel.serviceDescription_t}
   </@crafter.p>
-  <a href="${model.serviceButtonUrl_s}" class="main-button">${model.serviceButtonLabel_s}</a>
+  <a href="${contentModel.serviceButtonUrl_s}" class="main-button">${contentModel.serviceButtonLabel_s}</a>
 </@crafter.div>

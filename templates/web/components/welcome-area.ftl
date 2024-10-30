@@ -9,14 +9,14 @@
           data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
         >
           <@crafter.h1 $field="welcomeHeading_s">
-            ${model.welcomeHeading_s}
+            ${contentModel.welcomeHeading_s}
           </@crafter.h1>
           <@crafter.div $field="welcomeContent_html">
-            ${model.welcomeContent_html}
+            ${contentModel.welcomeContent_html}
           </@crafter.div>
 
-          <a href="${model.welcomeButtonUrl_s}" class="main-button-slider">
-            ${model.welcomeButtonLabel_s}
+          <a href="${contentModel.welcomeButtonUrl_s}" class="main-button-slider">
+            ${contentModel.welcomeButtonLabel_s}
           </a>
         </div>
         <div
