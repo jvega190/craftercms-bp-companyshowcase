@@ -6,9 +6,9 @@
       <div class="col-12">
         <nav class="main-nav">
           <!-- ***** Logo Start ***** -->
-          <a href="${model.brandNameUrl_s!"#"}" class="logo">
+          <a href="${contentModel.brandNameUrl_s!"#"}" class="logo">
             <@crafter.span $field="brandName_s">
-              ${model.brandName_s}
+              ${contentModel.brandName_s}
             </@crafter.span>
           </a>
           <!-- ***** Logo End ***** -->

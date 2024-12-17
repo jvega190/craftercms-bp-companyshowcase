@@ -7,9 +7,9 @@
 />
 <div class="text">
   <@crafter.h6 $field="aboutSecondaryItemTitle_s">
-    ${model.aboutSecondaryItemTitle_s}
+    ${contentModel.aboutSecondaryItemTitle_s}
   </@crafter.h6>
   <@crafter.span $field="aboutSecondaryItemDescription_html">
-    ${model.aboutSecondaryItemDescription_html}
+    ${contentModel.aboutSecondaryItemDescription_html}
   </@crafter.span>
 </div>
